@@ -1,3 +1,3 @@
 @echo off
-D:\anaconda\envs\DesctopWords\pythonw.exe main.py
+D:\anaconda\envs\DesctopWords\pythonw.exe %cd%/main.py
 exit
