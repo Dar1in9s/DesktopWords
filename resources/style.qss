@@ -1,0 +1,91 @@
+#bg_widget{   /* 鼠标放上去时的背景颜色(最后值一个是不透明度 0-255) */
+    background-color: rgba(77, 138, 127, 125);
+}
+
+/* 刷新按钮 */
+#btn_refresh{
+    border: none;
+    border-image: url(./resources/images/refresh_1.png);
+}
+#btn_refresh:pressed{
+    border-image: ;
+	border-image: url(./resources/images/refresh_2.png);
+}
+
+/* 关闭按钮 */
+#btn_close{
+    border: none;
+    background-color: transparent;
+    font: 20pt "Bahnschrift";
+    color: rgb(49, 160, 29);
+}
+#btn_close:hover{
+    color: red;
+}
+
+/* 下一个单词 */
+#btn_next{
+    border: none;
+    border-image: url(./resources/images/1139224.png)
+}
+#btn_next:hover{
+    border-image: url(./resources/images/1139424.png);
+}
+#btn_next:pressed{
+    border-image: url(./resources/images/1139124.png);
+}
+
+/* 单词 */
+#btn_word{ 
+    font: 35pt "Constantia";  /* 字体，大小 */
+    border: none;
+    background-color:transparent;
+    color: rgb(49, 160, 29);  /* 颜色 */
+}
+#btn_word:hover{
+    color: rgb(154, 160, 28);  /* 鼠标放上去时的颜色 */
+}
+#btn_word:pressed{
+    color: rgb(30, 160, 141); /* 鼠标点击时的颜色 */
+}
+
+/* 单词音标 */
+#label_phonetic{
+    font: 15pt "Constantia";
+    color: rgb(49, 160, 29);
+}
+
+/* 单词中文翻译 */
+#textEdit_explant{
+    background-color: transparent;
+    border: none;
+    font: 12pt "Bahnschrift SemiBold SemiConden";
+    color: rgb(220, 245, 227);
+}
+
+/* 单词中文翻译的滚动条（只能改动颜色）*/
+QScrollBar:vertical {
+    border: none;
+    background: white;         /* 滚动条背景颜色 */
+    width:3px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:vertical {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+    stop: 0 rgb(49, 160, 29), stop: 0.5 rgb(49, 160, 29), stop:1 rgb(49, 160, 29));  /* 滚动条颜色 */
+    min-height: 0px;
+}
+QScrollBar::add-line:vertical {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+    stop: 0 rgb(49, 160, 29), stop: 0.5 rgb(49, 160, 29),  stop:1 rgb(49, 160, 29));
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+    stop: 0  rgb(49, 160, 29), stop: 0.5 rgb(49, 160, 29),  stop:1 rgb(49, 160, 29));
+    height: 0 px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
