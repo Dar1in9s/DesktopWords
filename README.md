@@ -11,6 +11,7 @@
 2. 编辑`config.py`中的`APP_KEY`和`APP_SRCRET`
 
 **启动**
+
 使用vbs脚本启动：
 1. 更改`DesctopWords.bat`文件中的`pythonw.exe`路径
 2. 双击`DesctopWords.bat`启动
