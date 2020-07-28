@@ -1,10 +1,17 @@
 from PyQt5.QtGui import QColor
 
+# 配置有道翻译API（必填）
+APP_KEY = ''     # 有道翻译应用ID
+APP_SECRET = ''  # 有道翻译应用密钥
+
 # 单词文件位置
 word_file = './resources/words/wordlist.txt'
 
 # 单词音频保存目录
 voice_dir = './resources/words/voice/'
+
+# 系统托盘应用图标 文件位置
+icon_file = './resources/images/logo.png'
 
 # 单词音频文件最大保存数量
 max_voice_file_num = 10

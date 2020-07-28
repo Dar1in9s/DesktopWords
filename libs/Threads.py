@@ -4,7 +4,7 @@ import time
 import json
 import uuid
 from PyQt5.QtCore import QThread, pyqtSignal
-
+import config
 
 class TranslateThread(QThread):
     signal_finish = pyqtSignal(dict)
@@ -12,8 +12,8 @@ class TranslateThread(QThread):
     def __init__(self):
         super().__init__()
         self.YOUDAO_URL = 'https://openapi.youdao.com/api'
-        self.APP_KEY = '09caff2f8edd9fb1'
-        self.APP_SECRET = 'sAGZ0EVVHLd1eTIf5kWYz01epheH1owr'
+        self.APP_KEY = config.APP_KEY
+        self.APP_SECRET = config.APP_SECRET
         self.word = None
         self.running_flag = False
 

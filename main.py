@@ -16,7 +16,7 @@ class Window(BaseWindow):
         # 变量定义
         self.word_file = config.word_file
         self.voice_dir = config.voice_dir
-        self.icon_file = './resources/images/logo.png'
+        self.icon_file = config.icon_file
         self.max_voice_file_num = config.max_voice_file_num
         self.update_interval = config.update_interval * 60 * 1000
         self.bg_color_leave = config.bg_color_leave
