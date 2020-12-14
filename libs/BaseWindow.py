@@ -47,7 +47,7 @@ class BaseWindow(QWidget, Ui_window):
 
         l1.setText(str("Version: 1.0"))
         l2.setText(str('Author: <a href="https://dar1in9s.github.io/">Dar1in9</a>'))
-        l3.setText(str('Github: <a href="https://github.com/Dar1in9s/DesctopWords">https://github.com/Dar1in9s/DesctopWords</a>'))
+        l3.setText(str('Github: <a href="https://github.com/Dar1in9s/DesktopWords">https://github.com/Dar1in9s/DesktopWords</a>'))
         l2.setOpenExternalLinks(True)
         l3.setOpenExternalLinks(True)
         vbox = QVBoxLayout()

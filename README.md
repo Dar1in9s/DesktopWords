@@ -1,4 +1,4 @@
-# DesctopWords
+# DesktopWords
 桌面单词悬浮窗，对着桌面发呆的同时又可以多背几个单词了 2333
 
 ## 使用
@@ -13,9 +13,9 @@
 **启动**
 
 使用vbs脚本启动：
-1. 更改`DesctopWords.bat`文件中的`pythonw.exe`路径
-2. 双击`DesctopWords.bat`启动
-    Ps：可将`DesctopWords.bat`加入系统启动项，实现开机自启（推荐）
+1. 更改`DesktopWords.bat`文件中的`pythonw.exe`路径
+2. 双击`DesktopWords.bat`启动
+    Ps：可将`DesktopWords.bat`加入系统启动项，实现开机自启（推荐）
 
 使用python命令行启动：
 `python main.py`或`pythonw main.py`(后台运行)

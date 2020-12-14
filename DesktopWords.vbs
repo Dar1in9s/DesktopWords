@@ -1,2 +1,2 @@
 Set ws = CreateObject("Wscript.Shell")
-ws.run "cmd /c DesctopWords.bat",0
+ws.run "cmd /c DesktopWords.bat",0
