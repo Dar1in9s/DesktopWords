@@ -1,11 +1,14 @@
 from PyQt5.QtGui import QColor
 
 # 配置有道翻译API（必填）
-APP_KEY = ''     # 有道翻译应用ID
-APP_SECRET = ''  # 有道翻译应用密钥
+APP_KEY = '09caff2f8edd9fb1'     # 有道翻译应用ID
+APP_SECRET = 'sAGZ0EVVHLd1eTIf5kWYz01epheH1owr'  # 有道翻译应用密钥
 
 # 单词文件位置
 word_file = './resources/words/wordlist.txt'
+
+# 单词文件目录
+word_dir = './resources/words/wordlist/'
 
 # 单词音频保存目录
 voice_dir = './resources/words/voice/'
@@ -21,5 +24,5 @@ update_interval = 2
 
 # 鼠标没有放上去时的背景颜色，前三个是rgb值，最后一个是透明度
 bg_color_leave = QColor(80, 147, 166, 25)
-
+# bg_color_leave = QColor(48, 47, 45, 25)
 # 其余参数可以在./resources/style.qss中修改

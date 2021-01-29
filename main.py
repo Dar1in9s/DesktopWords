@@ -15,6 +15,7 @@ class Window(BaseWindow):
         super().__init__()
         # 变量定义
         self.word_file = config.word_file
+        self.word_dir = config.word_dir
         self.voice_dir = config.voice_dir
         self.icon_file = config.icon_file
         self.max_voice_file_num = config.max_voice_file_num
@@ -61,9 +62,18 @@ class Window(BaseWindow):
     def next_word(self):
         if not self.translator.running_flag:
             self.translator.running_flag = True
-            with open(self.word_file, 'r') as f:
+            word_book = random.choice(os.listdir(self.word_dir)).strip()
+            with open(self.word_dir+word_book, 'r') as f:
                 words = f.readlines()
-            word = random.choice(words).strip()
+            allWords = []
+            for word in words:
+                tmp = word.strip()
+                if tmp == "" or tmp[0] == "#":
+                    continue
+                if "#" in tmp:
+                    tmp = tmp[:tmp.index("#")].strip()
+                allWords.append(tmp)
+            word = random.choice(allWords).strip()
             self.btn_word.setText(word)
             self.textEdit_explant.setText('获取中...')
             self.word_adjust_size()

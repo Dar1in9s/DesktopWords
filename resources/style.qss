@@ -1,15 +1,16 @@
 #bg_widget{   /* 鼠标放上去时的背景颜色(最后值一个是不透明度 0-255) */
-    background-color: rgba(77, 138, 127, 125);
+    /* background-color: rgba(77, 138, 127, 125);*/
+    background-color: rgba(48, 47, 45, 125);
 }
 
 /* 刷新按钮 */
 #btn_refresh{
     border: none;
-    border-image: url(./resources/images/refresh_1.png);
+    border-image: url(./resources/images/refresh.png);
 }
 #btn_refresh:pressed{
     border-image: ;
-	border-image: url(./resources/images/refresh_2.png);
+	border-image: url(./resources/images/refresh2.png);
 }
 
 /* 关闭按钮 */
@@ -17,7 +18,8 @@
     border: none;
     background-color: transparent;
     font: 20pt "Bahnschrift";
-    color: rgb(49, 160, 29);
+    /*color: rgb(49, 160, 29);*/
+    color: rgb(199, 209, 209);
 }
 #btn_close:hover{
     color: red;
@@ -26,7 +28,7 @@
 /* 下一个单词 */
 #btn_next{
     border: none;
-    border-image: url(./resources/images/1139224.png)
+    border-image: url(./resources/images/1139025.png)
 }
 #btn_next:hover{
     border-image: url(./resources/images/1139424.png);
@@ -40,7 +42,8 @@
     font: 35pt "Constantia";  /* 字体，大小 */
     border: none;
     background-color:transparent;
-    color: rgb(49, 160, 29);  /* 颜色 */
+    /* color: rgb(49, 160, 29); */  /* 颜色 */
+    color: rgb(180, 182, 164);
 }
 #btn_word:hover{
     color: rgb(154, 160, 28);  /* 鼠标放上去时的颜色 */
@@ -52,7 +55,8 @@
 /* 单词音标 */
 #label_phonetic{
     font: 15pt "Constantia";
-    color: rgb(49, 160, 29);
+    /* color: rgb(49, 160, 29);  */
+    color: rgb(180, 182, 164);
 }
 
 /* 单词中文翻译 */
