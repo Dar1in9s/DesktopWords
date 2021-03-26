@@ -63,7 +63,7 @@ class Window(BaseWindow):
         if not self.translator.running_flag:
             self.translator.running_flag = True
             word_book = random.choice(os.listdir(self.word_dir)).strip()
-            with open(self.word_dir+word_book, 'r') as f:
+            with open(self.word_dir+word_book, 'r', encoding="utf8") as f:
                 words = f.readlines()
             allWords = []
             for word in words:
