@@ -1,8 +1,8 @@
 from PyQt5.QtGui import QColor
 
 # 配置有道翻译API（必填）
-APP_KEY = 'xxx'     # 有道翻译应用ID
-APP_SECRET = 'xxxxx'  # 有道翻译应用密钥
+APP_KEY = '09caff2f8edd9fb1'     # 有道翻译应用ID
+APP_SECRET = 'sAGZ0EVVHLd1eTIf5kWYz01epheH1owr'  # 有道翻译应用密钥
 
 # 单词文件位置
 word_file = './resources/words/wordlist.txt'

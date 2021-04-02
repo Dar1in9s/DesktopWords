@@ -11,11 +11,11 @@
     # inform
     # information
     # approach
-    appropriate
+    # appropriate
     # approval
     # approve
-    apt
-    conform
+    # apt
+    # conform
     # confront
     confuse
     confusion
@@ -25,15 +25,15 @@
     conscious
     continual
     # continue
-    continuous
+    # continuous
     # dismiss
     # disorder
     disperse
     # displace
     # display
     # distribute
-    distort
-    distract
+    # distort
+    # distract
     # evolution
     # evolve
     # exaggerate
@@ -51,7 +51,7 @@
     # preface
     # preferable
     # preference
-    prejudice
+    # prejudice
     preliminary
     # premier
     premise
@@ -62,11 +62,11 @@
     # reform
     # reject
     # rejoice
-    relate
+    # relate
     # relation
     # relationship
     # relative
     # relativity
     relevant
-    overlook
+    # overlook
     overseas

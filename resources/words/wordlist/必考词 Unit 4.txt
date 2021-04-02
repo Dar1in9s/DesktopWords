@@ -1,12 +1,12 @@
 # 必考词 Unit 4                                                                                          
     confine
-    confirm
+    # confirm
     conflict
     # confidence
     # confident
     confidential
     # configuration
-    trail
+    # trail
     # train
     # training
     trait
@@ -16,16 +16,16 @@
     # violence
     # violent
     # virtual
-    virtue
-    apparent
+    # virtue
+    # apparent
     # appeal
     # appear
     appearance
     appliance
     applicable
     # application
-    appoint
-    appointment
+    # appoint
+    # appointment
     # apply
     appreciate
     # discriminate
@@ -35,46 +35,46 @@
     # escape
     # especially
     # essay
-    essence
-    essential
+    # essence
+    # essential
     # establish
-    estimate
+    # estimate
     # ethic
-    ethnic
-    evaluate
+    # ethnic
+    # evaluate
     # industrial
     # industrialize
     # industrialise
     # industry
     # inevitable
-    miserable
-    misery
+    # miserable
+    # misery
     # mislead
     # mix
     # mixture
     # necessary
-    necessitate
-    necessity
+    # necessitate
+    # necessity
     # negative
     negotiate
     # outer
-    outlet
+    # outlet
     # outline
-    outlook
+    # outlook
     # output
     # poverty
     # power
     # practical
     # practice
     # practise
-    practitioner
+    # practitioner
     preach
     precede
     # precaution
     precedent
     preceding
-    precious
-    precise
-    precision
+    # precious
+    # precise
+    # precision
     # stress
-    stretch
+    # stretch

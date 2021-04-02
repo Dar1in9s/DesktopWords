@@ -40,7 +40,7 @@
     # realize
     # suppose
     # subject
-    labor
+    # labor
     # positive
     # encourage
     # reserve
@@ -66,9 +66,9 @@
     # respect
     abroad
     # collect
-    combine
+    # combine
     # describe
-    indicate
+    # indicate
     # promise
     # authority
     promote
@@ -88,7 +88,7 @@
     # inform
     # participate
     # recognize
-    adopt
+    # adopt
     # advocate
     # institute
     # recommend
@@ -104,13 +104,13 @@
     # terrible
     # trend
     # admit
-    concentrate
+    # concentrate
     # discount
     # finance
     # independent
     # legal
     # permanent
-    primary
+    # primary
     sensitive
     announce
     # burden
@@ -118,7 +118,7 @@
     # direct
     # precious
     # refuse
-    reputation
+    # reputation
     routine
     # translate
     # actual
@@ -127,13 +127,13 @@
 
 # part 6
     # crash
-    decorate
+    # decorate
     # delight
     # desert
     fiction
     # final
     # flexible
-    inspire
+    # inspire
     # origin
     prompt
     # superior
@@ -144,7 +144,7 @@
     # emergency
     # judge
     # master
-    priase
+    # priase
     # pride
     # recover
     # satisfy
@@ -159,7 +159,7 @@
     # agriculture
     # arise
     candidate
-    compromise
+    # compromise
     # convenient
     extreme
     # fancy
@@ -181,7 +181,7 @@
     # overlook
     # psychology
     # revolution
-    shelter
+    # shelter
     sympathy
     # terminal
     bound
@@ -209,18 +209,18 @@
     # construct
     # disappoint
     # dynamic
-    elegant
-    evaluate
-    hardship
+    # elegant
+    # evaluate
+    # hardship
     # hesitate
-    religion
+    # religion
     resign
     # rede
 
 # part 10
     scold
     # sorrow
-    thrill
+    # thrill
     rigid
     absurd
     # anniversary
@@ -234,7 +234,7 @@
     # forgive
     # interrupt
     medium
-    possess
-    radioactive
+    # possess
+    # radioactive
     # random
     recipe

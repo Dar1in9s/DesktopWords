@@ -1,6 +1,6 @@
-curiosity
+# curiosity
 # appeal
-claim
+# claim
 # gamble
 # uncertain
 # certain
@@ -12,7 +12,7 @@ substitute
 # portion
 # opt
 # crack
-desire
+# desire
 desirable
 facilitate
 # imply

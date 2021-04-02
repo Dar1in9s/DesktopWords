@@ -9,19 +9,19 @@
     # state
     # statement
     # statesman
-    statistics
+    # statistics
     # statue
     # status
     # statute
     # stay
-    steady
+    # steady
     # steer
     # stem
     # step
     stern
     # anonymous
     # answer
-    anticipate
+    # anticipate
     # anxiety
     # anxious
     # apart
@@ -32,12 +32,12 @@
     # assert
     # component
     compose
-    composition
+    # composition
     # comprehend
     # comprehension
-    comprehensive
+    # comprehensive
     # condemn
-    condense
+    # condense
     # condition
     # conduct
     # conductor
@@ -53,14 +53,14 @@
     # holder
     # household
     # however
-    huddle
+    # huddle
     # narrative
     # narrow
-    nasty
+    # nasty
     # nation
     # national
     # nationality
-    native
+    # native
     # natural
     # nature
     # overall
@@ -69,5 +69,5 @@
     # portion
     # possibility
     # possible
-    potential
+    # potential
     pour

@@ -19,7 +19,7 @@
 
 # part 2
     # transfer
-    assign
+    # assign
     # display
     # exhaust
     facility
@@ -120,7 +120,7 @@
     # undergo
     # virtual
     # vision
-    casual
+    # casual
     # cling
     # conquer
     # controversy
@@ -129,11 +129,11 @@
     # discriminate
     # dispute
     # enrol
-    entrepreneur
+    # entrepreneur
 
 # part 8
     # humour
-    imitate
+    # imitate
     # joint
     # justify
     # legend
@@ -155,17 +155,17 @@
 
 # part 9
     # bet
-    blend
+    # blend
     # breakdown
     # bureau
     # commodity
-    competent
+    # competent
     # confront
     # contend
     # cooperate
     # cue
     # decent
-    deficit
+    # deficit
     # distinct
     # drama
     # elite
@@ -174,7 +174,7 @@
 
 # part 10
     # ethic
-    extend
+    # extend
     # fake
     # fascinate
     # fatal
