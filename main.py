@@ -4,10 +4,12 @@ from PyQt5.QtCore import QUrl, QTimer
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from libs.BaseWindow import BaseWindow
 from libs.Threads import TranslateThread, DownloadThread
+import libs.lib as lib
 import config
 import sys
 import random
 import os
+import traceback
 
 
 class Window(BaseWindow):
@@ -62,18 +64,7 @@ class Window(BaseWindow):
     def next_word(self):
         if not self.translator.running_flag:
             self.translator.running_flag = True
-            word_book = random.choice(os.listdir(self.word_dir)).strip()
-            with open(self.word_dir+word_book, 'r', encoding="utf8") as f:
-                words = f.readlines()
-            allWords = []
-            for word in words:
-                tmp = word.strip()
-                if tmp == "" or tmp[0] == "#":
-                    continue
-                if "#" in tmp:
-                    tmp = tmp[:tmp.index("#")].strip()
-                allWords.append(tmp)
-            word = random.choice(allWords).strip()
+            word = lib.choiseWord(self.word_dir)
             self.btn_word.setText(word)
             self.textEdit_explant.setText('获取中...')
             self.word_adjust_size()
@@ -131,9 +122,14 @@ class Window(BaseWindow):
 
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    QApplication.setQuitOnLastWindowClosed(False)
-    app.setStyleSheet(open('./resources/style.qss', 'r', encoding='utf8').read())
-    window = Window()
-    window.show()
-    sys.exit(app.exec_())
+    try:
+        app = QApplication(sys.argv)
+        QApplication.setQuitOnLastWindowClosed(False)
+        app.setStyleSheet(open('./resources/style.qss', 'r', encoding='utf8').read())
+        window = Window()
+        window.show()
+        sys.exit(app.exec_())
+    except Exception as e:
+        with open("error.log", "w", encoding="utf8") as f:
+            f.write(traceback.format_exc())
+        sys.exit(1)
